@@ -1,0 +1,42 @@
+Province_State,Admin2,2020-03-23,2020-03-24,2020-03-25,2020-03-26,2020-03-27,2020-03-28,2020-03-29,2020-03-30
+Washington,Adams,1,1,1,3,3,5,5,7
+Washington,Asotin,0,0,0,0,0,0,0,0
+Washington,Benton,9,9,12,19,42,42,56,102
+Washington,Chelan,6,6,10,10,12,13,13,14
+Washington,Clallam,4,4,4,5,5,5,5,6
+Washington,Clark,13,13,16,48,76,82,90,90
+Washington,Columbia,1,1,1,1,1,1,1,1
+Washington,Cowlitz,3,3,3,7,7,10,10,14
+Washington,Douglas,1,1,2,5,5,5,5,5
+Washington,Ferry,0,0,0,1,1,1,1,1
+Washington,Franklin,5,5,7,7,12,12,16,37
+Washington,Garfield,0,0,0,0,0,0,0,0
+Washington,Grant,23,23,27,33,39,44,50,59
+Washington,Grays Harbor,1,1,1,1,1,1,1,1
+Washington,Island,25,25,38,64,64,80,93,105
+Washington,Jefferson,6,8,9,11,11,11,13,14
+Washington,King,1170,1170,1359,1577,1577,2077,2159,2161
+Washington,Kitsap,18,18,20,33,33,42,50,56
+Washington,Kittitas,4,5,18,8,8,8,8,9
+Washington,Klickitat,4,4,6,7,7,7,7,8
+Washington,Lewis,2,2,2,5,5,7,7,10
+Washington,Lincoln,1,1,1,1,1,1,1,1
+Washington,Mason,1,1,2,2,2,2,2,2
+Washington,Okanogan,0,0,0,1,1,3,3,3
+Washington,Pacific,0,0,0,0,0,0,0,0
+Washington,Pend Oreille,0,0,0,0,0,0,0,0
+Washington,Pierce,126,138,155,186,231,231,317,317
+Washington,San Juan,1,1,1,2,2,3,4,4
+Washington,Skagit,33,45,48,78,78,91,99,101
+Washington,Skamania,0,0,0,0,0,1,1,1
+Washington,Snohomish,519,614,634,778,912,913,912,1068
+Washington,Spokane,20,29,33,67,83,108,108,136
+Washington,Stevens,1,1,1,2,2,3,3,3
+Washington,Thurston,11,11,14,24,24,27,33,36
+Washington,Wahkiakum,0,0,0,0,0,0,0,0
+Washington,Walla Walla,1,1,2,2,2,4,5,6
+Washington,Whatcom,48,48,64,86,92,102,116,116
+Washington,Whitman,2,2,2,3,5,6,6,8
+Washington,Yakima,16,25,47,61,66,82,140,147
+Washington,Out of WA,0,0,0,0,0,0,0,0
+Washington,Unassigned,145,112,51,69,67,0,125,274
