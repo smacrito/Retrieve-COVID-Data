@@ -22,7 +22,7 @@
 **To Run Program**
 
  - Double click the either *retrieve_confirmed_cases.py* or *retrieve_confirmed_deaths.py* 
- - This will retrieve from 03/23/2020 - 03/30/2020 from the range.
+ - This will retrieve from 03/23/2020 - 04/02/2020 from the range.
 
 **Changing the Date Range**
 
