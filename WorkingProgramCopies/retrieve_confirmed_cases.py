@@ -21,17 +21,8 @@ def createCSV():
     #init data
     data=pd.read_csv('us_confirmed.csv', delimiter = ',')
     #drop extra columns
-    data.drop(['UID'],axis=1,inplace=True)
-    data.drop(['iso2'],axis=1,inplace=True)
-    data.drop(['iso3'],axis=1,inplace=True)
-    data.drop(['code3'],axis=1,inplace=True)
-    data.drop(['FIPS'],axis=1,inplace=True)
-    data.drop(['Country_Region'],axis=1,inplace=True)
-    data.drop(['Lat'],axis=1,inplace=True)
-    data.drop(['Long_'],axis=1,inplace=True)
-    data.drop(['Combined_Key'],axis=1,inplace=True)
-    #remove debug data later
-    data.to_csv('DEBUGDATA.csv')
+    data.drop(['UID','iso2','iso3','code3','FIPS','Country_Region','Lat','Long_','Combined_Key'],axis=1,inplace=True)
+
       
     #print all coluns being written to ensure correct function -- WILL INCLUDe ALL DATES
     for col in data.columns:
