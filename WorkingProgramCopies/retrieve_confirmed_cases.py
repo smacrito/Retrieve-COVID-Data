@@ -38,7 +38,7 @@ def createCSV():
     
     #create and name files within selected date range
     for name, g in data.groupby(level='Province_State'):
-        g[pd.date_range('03/23/2020', '04/02/20')] \
+        g[pd.date_range('03/23/2020', '04/03/20')] \
             .to_csv('{0}_confirmed_cases.csv'.format(name))
     print('confirmed_cases has been created in this directory')
 
@@ -88,7 +88,8 @@ def removeCols():#glob is a native library. searches for all csvs
             
             data = insert_row(row_number, data, row_value) 
             print(data)
-            data.to_csv('reformat_cases_{0}.csv'.format(filename), index=False)
+            filename = filename.replace(' ','')
+            data.to_csv('reformat_{0}.csv'.format(filename), index=False)
 
 def insert_row(row_number,data,row_value):
     #splits dataframe in half by row number
