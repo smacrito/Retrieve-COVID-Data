@@ -3,6 +3,7 @@ import pandas as pd#csv parser
 import collections#not needed
 import requests#retrieves URL fom gov data
 import glob
+from datetime import date
 
 def getFile():
     #repo for covid data
@@ -35,10 +36,14 @@ def createCSV():
     
     #parse all but first two columns as date time to be renamed, so pandas can recognize for date ranges
     data = data.iloc[:,3:].rename(columns=pd.to_datetime, errors='ignore')
+
+    #get todays date and format for pandas
+    today = date.today()
+    formatDate = today.strftime("%m/%d/%y")
     
     #create and name files within selected date range
     for name, g in data.groupby(level='Province_State'):
-        g[pd.date_range('03/23/2020', '04/06/20')] \
+        g[pd.date_range('03/23/2020', formatDate)] \
             .to_csv('{0}_confirmed_deaths.csv'.format(name))
     print('confirmed_deaths has been created in this directory')
 
@@ -50,14 +55,15 @@ def Main():
 def removeCols():#glob is a native library. searches for all csvs
     #for file in csvs
     for filename in glob.glob('*.csv'):
+        
         #set file to dataframe
         data = pd.read_csv(filename, delimiter = ',')
+        
         #drop state,county columns. Axis=1 means top column, inplace=True replaces
         #the value directly in cell
         data.drop(['Province_State'],axis=1,inplace=True)
         data.rename(columns={'Admin2':'County'},inplace=True)
         
-
         #helps know program is working. Prints count of columns 
         print(data.index.max)
         print(data.columns)

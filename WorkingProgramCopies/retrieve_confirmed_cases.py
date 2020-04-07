@@ -35,10 +35,14 @@ def createCSV():
     
     #parse all but first two columns as date time to be renamed, so pandas can recognize for date ranges
     data = data.iloc[:,3:].rename(columns=pd.to_datetime, errors='ignore')
+
+    #get todays date and format for pandas
+    today = date.today()
+    formatDate = today.strftime("%m/%d/%y")
     
     #create and name files within selected date range
     for name, g in data.groupby(level='Province_State'):
-        g[pd.date_range('03/23/2020', '04/06/20')] \
+        g[pd.date_range('03/23/2020', formatDate)] \
             .to_csv('{0}_confirmed_cases.csv'.format(name))
     print('confirmed_cases has been created in this directory')
 
