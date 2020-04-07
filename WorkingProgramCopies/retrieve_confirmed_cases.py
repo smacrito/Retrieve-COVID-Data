@@ -3,6 +3,7 @@ import pandas as pd#csv parser
 import collections#not needed
 import requests#retrieves URL fom gov data
 import glob
+from datetime import date
 
 def getFile():
     #repo for covid data
