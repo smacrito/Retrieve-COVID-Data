@@ -1,0 +1,67 @@
+Province_State,Admin2,2020-03-23,2020-03-24,2020-03-25,2020-03-26,2020-03-27,2020-03-28,2020-03-29,2020-03-30,2020-03-31,2020-04-01,2020-04-02,2020-04-03,2020-04-04,2020-04-05,2020-04-06
+Louisiana,Acadia,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2
+Louisiana,Allen,0,0,0,0,0,0,0,0,0,0,3,3,3,5,5
+Louisiana,Ascension,1,1,1,1,1,1,2,5,6,5,7,7,7,11,11
+Louisiana,Assumption,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Avoyelles,0,0,0,0,0,0,0,0,0,2,1,1,1,1,1
+Louisiana,Beauregard,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Bienville,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Louisiana,Bossier,0,0,0,0,0,0,0,0,1,1,2,2,2,3,3
+Louisiana,Caddo,0,0,0,1,2,2,5,5,7,7,10,10,10,19,21
+Louisiana,Calcasieu,0,1,1,1,1,1,1,1,1,1,1,1,3,3,3
+Louisiana,Caldwell,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Cameron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Catahoula,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Louisiana,Claiborne,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2
+Louisiana,Concordia,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+Louisiana,De Soto,0,0,0,1,1,1,1,1,1,1,1,2,3,3,4
+Louisiana,East Baton Rouge,2,2,3,4,4,4,7,9,9,10,11,13,14,22,25
+Louisiana,East Carroll,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,East Feliciana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Evangeline,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Franklin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Grant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Iberia,0,0,0,0,0,0,0,0,0,1,1,3,3,3,5
+Louisiana,Iberville,0,1,1,1,1,1,1,2,3,3,4,5,5,5,6
+Louisiana,Jackson,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Jefferson,5,6,7,12,24,26,28,37,57,64,73,85,95,113,121
+Louisiana,Jefferson Davis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Louisiana,Lafayette,0,0,0,0,0,1,1,1,1,2,2,2,4,5,6
+Louisiana,Lafourche,0,0,1,1,2,2,2,2,2,4,4,3,3,4,7
+Louisiana,LaSalle,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Lincoln,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Livingston,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+Louisiana,Madison,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Morehouse,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Natchitoches,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Orleans,20,26,37,46,57,70,73,86,101,115,125,148,153,161,171
+Louisiana,Ouachita,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Louisiana,Plaquemines,0,0,0,0,2,2,2,2,2,4,3,4,4,6,6
+Louisiana,Pointe Coupee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Rapides,1,1,1,1,1,1,1,1,3,4,3,4,4,4,4
+Louisiana,Red River,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Richland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Sabine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,St. Bernard,0,0,1,1,1,2,2,2,2,3,5,7,8,8,8
+Louisiana,St. Charles,0,0,1,2,2,2,2,3,6,7,8,11,12,13,15
+Louisiana,St. Helena,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,St. James,1,1,1,1,3,3,3,3,4,4,4,4,6,6,6
+Louisiana,St. John the Baptist,0,0,2,2,3,3,5,8,12,13,14,17,23,24,24
+Louisiana,St. Landry,0,0,0,0,0,0,0,1,1,1,1,2,2,4,4
+Louisiana,St. Martin,0,0,0,0,3,3,3,3,3,3,3,3,5,4,4
+Louisiana,St. Mary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,St. Tammany,0,1,1,1,2,2,3,4,4,6,9,10,14,14,17
+Louisiana,Tangipahoa,0,0,0,0,0,0,0,0,0,2,1,1,2,2,2
+Louisiana,Tensas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Terrebonne,0,0,0,0,1,1,1,1,1,1,1,2,5,8,7
+Louisiana,Union,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Vermilion,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+Louisiana,Vernon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Washington,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2
+Louisiana,Webster,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2
+Louisiana,West Baton Rouge,1,1,1,1,1,1,1,1,1,1,1,3,4,7,7
+Louisiana,West Carroll,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,West Feliciana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Winn,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Louisiana,Out of LA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Louisiana,Unassigned,0,1,1,1,1,1,0,0,4,0,1,4,0,4,3

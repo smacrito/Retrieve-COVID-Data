@@ -14,10 +14,12 @@
  - pandas
  - collections
  - requests
+ - glob
 
 **Example**
 
     pip install pandas
+	pip install requests
 
 **To Run Program**
 
