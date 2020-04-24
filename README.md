@@ -31,3 +31,5 @@
  - Edit the corresponding file you are trying to run with a text editor
  - replace `g[pd.date_range('03/23/2020', '03/30/20')]` in `createCSV()` to the date range you prefer, following the respective format
 
+## References
+https://stackoverflow.com/questions/60961580/pandas-not-displaying-all-columns-when-writing-to?noredirect=1#comment107853739_60961580
