@@ -43,7 +43,7 @@ def createCSV():
     
     #create and name files within selected date range
     for name, g in data.groupby(level='Province_State'):
-        g[pd.date_range('03/23/2020', formatDate)] \
+        g[pd.date_range('03/23/2020', '05/27/2020')] \
             .to_csv('{0}_confirmed_cases.csv'.format(name))
     print('confirmed_cases has been created in this directory')
 
@@ -54,48 +54,45 @@ def Main():
 
 def removeCols():#glob is a native library. searches for all csvs
     #for file in csvs
-    for filename in glob.glob('*.csv'):
-        #set file to dataframe
-        data = pd.read_csv(filename, delimiter = ',')
-        #drop state,county columns. Axis=1 means top column, inplace=True replaces
-        #the value directly in cell
-        data.drop(['Province_State'],axis=1,inplace=True)
-        data.rename(columns={'Admin2':'County'},inplace=True)
-        
-
-        #helps know program is working. Prints count of columns 
-        print(data.index.max)
-        print(data.columns)
-
-        #set columnCount = total # of columns
-        columnCount = len(data.columns)
-        #init count for loop
-        count = 0
-        print(columnCount)
-
-        #Specify row number to replace (starting after header).Row=0 is first row
-        row_number = 0
-
-        #create blank list to append datatypes to
-        row_value = ['string']
-
-        #append data type for each column
-        while count < columnCount-1:
-            count+=1
-            row_value.append('number')
-            print(row_value)
-
-        #checks if row is in data
-        if row_number > data.index.max()+1: 
-            print("Invalid row_number")
-        #call insert_row to split by row, append, and stitch
-        else:
+    try:
+        for filename in glob.glob('*.csv'):
+            #set file to dataframe
+            data = pd.read_csv(filename, delimiter = ',')
+            #drop state,county columns. Axis=1 means top column, inplace=True replaces
+            #the value directly in cell
+            data.drop(['Province_State'],axis=1,inplace=True)
+            data.rename(columns={'Admin2':'County'},inplace=True)
             
-            data = insert_row(row_number, data, row_value) 
-            print(data)
-            filename = filename.replace(' ','')
-            data.to_csv('reformat_{0}.csv'.format(filename), index=False)
 
+            #set columnCount = total # of columns
+            columnCount = len(data.columns)
+            #init count for loop
+            count = 0
+
+            #Specify row number to replace (starting after header).Row=0 is first row
+            row_number = 0
+
+            #create blank list to append datatypes to
+            row_value = ['string']
+
+            #append data type for each column
+            while count < columnCount-1:
+                count+=1
+                row_value.append('number')
+
+            #checks if row is in data
+            if row_number > data.index.max()+1: 
+                print("Invalid row_number")
+            #call insert_row to split by row, append, and stitch
+            else:
+                data = insert_row(row_number, data, row_value) 
+                filename = filename.replace(' ','')
+                data.to_csv('reformat_{0}.csv'.format(filename), index=False)
+                
+    except:
+        print("An error has occurred.")
+ 
+        
 def insert_row(row_number,data,row_value):
     #splits dataframe in half by row number
     #allows appending to original data frame then stitching back together

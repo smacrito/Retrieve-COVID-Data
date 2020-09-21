@@ -43,7 +43,7 @@ def createCSV():
     
     #create and name files within selected date range
     for name, g in data.groupby(level='Province_State'):
-        g[pd.date_range('03/23/2020', formatDate)] \
+        g[pd.date_range('03/23/2020', '04/26/2020')] \
             .to_csv('{0}_confirmed_deaths.csv'.format(name))
     print('confirmed_deaths has been created in this directory')
 
